@@ -85,6 +85,15 @@ const Header = () => {
           </div>
         </div>
         {/* hamburger menu  */}
+        {token == null ? (
+              <button className="button md:hidden" onClick={goToLogin}>
+                Login
+              </button>
+            ) : (
+              <button className="button md:hidden" onClick={userLogout}>
+                Logout
+              </button>
+            )}
         <div className="md:hidden">
           <AiOutlineMenuFold
             size={"40px"}

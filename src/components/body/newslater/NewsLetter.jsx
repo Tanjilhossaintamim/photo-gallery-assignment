@@ -9,7 +9,7 @@ const NewsLetter = () => {
             </span>
             <span>We’re a team of non-cynics who truly care for our work.</span>
           </div>
-          <div className="mt-5 md:mt-0">
+          <div className="mt-5 md:mt-0 overflow-hidden md:overflow-visible">
             <div className="w-full h-12 relative flex justify-center">
               <input type="text" placeholder="Enter Your Email " className="text-xl text-grey-700 border-none outline-none py-3 px-2 bg-[#DDDDDD33]"/>
               <button className="button rounded-none hover:bg-yellow-600">Subscribe</button>
